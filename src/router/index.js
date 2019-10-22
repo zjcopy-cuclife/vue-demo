@@ -13,13 +13,18 @@ const routes = [
   {
     path: '/list',
     name: 'list',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/List.vue')
   },
   {
     path: '/html2pdf',
     name: 'html2pdf',
     component: () => import( '../views/html2pdf.vue')
   },  
+  {
+    path: '/sidebarMenu',
+    name: 'sidebarMenu',
+    component: () => import( '../views/sidebarmenu.vue')
+  }, 
 ]
 
 const router = new VueRouter({
