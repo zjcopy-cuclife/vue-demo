@@ -44,6 +44,24 @@
             url: '/sidebarMenu',
             instr:'http://www.zjcopy.com/05/09/2019467.html'
           }
+          , {
+            name: 'vue单选多选CSS美化',
+            des: '改变单选多选的原始样式，采用CSS美化的格式',
+            url: '/radioCheckbox',
+            instr:'http://www.zjcopy.com/05/09/2019467.html'
+          }
+          , {
+            name: 'vue生成二维码',
+            des: '调用qrcodejs2组件，生成二维码',
+            url: '/qrcode2',
+            instr:'http://www.zjcopy.com/05/09/2019470.html'
+          }
+          , {
+            name: 'vue处理IOS橡皮筋',
+            des: '处理掉IOS橡皮筋效果',
+            url: '/xiangpijin',
+            instr:'http://www.zjcopy.com/05/09/2019469.html'
+          }
           ]
         }
       },
